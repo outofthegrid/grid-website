@@ -1,0 +1,121 @@
+body{
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family (other options): Roboto, Zain, Lato, Inter, ; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: "Lato", sans-serif; */
+    /* font-family: "Trebuchet MS"; */
+    /* font-family: "Calibri"; */
+    font-family: "Segoe UI";
+    /* font-family: system-ui,-apple-system,Segoe UI,Roboto,sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: expanded;
+    margin: 0;
+    background-color: ghostwhite;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 95%;
+    /* margin: auto; */
+    margin: 0px 0px 0px 0px;
+    /* margin: 20px 15px 20px 0px; */
+    overflow: hidden;
+}
+#main-header{
+    background-color: cornflowerblue;
+    padding: 10px 0px;
+    /* position: fixed;
+    width: 100%; */
+}
+#main-header h1{
+    float: left;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+/* #header-pic{
+    float: right;
+    background-color: grey;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    position: absolute;
+    top: 22.5px;
+    right: 100px;
+} */
+#header-pic img{
+    float: right;
+    opacity: 90%;
+    border-radius: 40px;
+    position: absolute;
+    top: 22.5px;
+    right: 100px;
+    height: 60px; 
+    width: 60px; 
+    /* max-width: 60px; 
+    max-height: 60px; */
+}
+#navbar{
+    background-color: darkgray;
+    color: white;
+    margin: 0;
+    width: 190px;
+    height: 600px;
+    padding-left: 30px;
+    padding-top: 40px;
+    float: left;
+    font-size: 16px;
+}
+#navbar ul{
+    list-style: none;
+    padding: 0;
+    line-height: 14px;
+}
+#navbar li{
+    display: inline;
+    padding-right: 40px;
+}
+#navbar a{
+    color: white;
+}
+#navbar-item {
+    font-weight: 600;
+}
+#navbar-subitem {
+    font-size: 12px;
+    padding-left: 6px;
+}
+#main-body{
+    padding-left: 320px;
+    padding-top: 50px;
+    padding-right: 85px;
+}
+#daily-article{
+    position: relative;
+    margin-right: 2%;
+    border-radius: 12px;
+    padding: 0.5% 2.5% 1% 2.5%;
+    background-color: rgba(218, 218, 218, 0.5);
+}
+#daily-article h4{
+    margin-block-end: 5px;
+    color: #394f79;
+}
+#daily-article h4:hover{
+    margin-block-end: 5px;
+    color: #3064c5;
+}
+#daily-article-date{
+    font-size: 14px;
+    line-height: 4px;
+    font-weight: lighter;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border-bottom: solid 2px lightsteelblue;
+    /* text-underline-offset : 2px;
+    text-decoration-line: underline; */
+}
