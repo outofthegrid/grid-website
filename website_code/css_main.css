@@ -6,7 +6,7 @@ body{
     /* font-family: "Lato", sans-serif; */
     /* font-family: "Trebuchet MS"; */
     /* font-family: "Calibri"; */
-    font-family: "Segoe UI"; 
+    font-family: "Segoe UI";
     /* font-family: system-ui,-apple-system,Segoe UI,Roboto,sans-serif; */
     font-size: 16px;
     font-weight: 400;
@@ -37,7 +37,7 @@ a{
     font-weight: bold;
     margin-left: 30px;
 }
-#header-pic{
+/* #header-pic{
     float: right;
     background-color: grey;
     width: 60px;
@@ -46,22 +46,34 @@ a{
     position: absolute;
     top: 22.5px;
     right: 100px;
+} */
+#header-pic img{
+    float: right;
+    opacity: 90%;
+    border-radius: 40px;
+    position: absolute;
+    top: 22.5px;
+    right: 100px;
+    height: 60px; 
+    width: 60px; 
+    /* max-width: 60px; 
+    max-height: 60px; */
 }
 #navbar{
     background-color: darkgray;
     color: white;
     margin: 0;
-    width: 170px;
+    width: 190px;
     height: 600px;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 40px;
     float: left;
-    font-size: 14px;
+    font-size: 16px;
 }
 #navbar ul{
     list-style: none;
     padding: 0;
-    line-height: 12px;
+    line-height: 14px;
 }
 #navbar li{
     display: inline;
@@ -70,13 +82,16 @@ a{
 #navbar a{
     color: white;
 }
+#navbar-item {
+    font-weight: 600;
+}
 #navbar-subitem {
     font-size: 12px;
     padding-left: 6px;
 }
 #main-body{
-    padding-left: 300px;
-    padding-top: 30px;
+    padding-left: 320px;
+    padding-top: 50px;
     padding-right: 85px;
 }
 #daily-article{
